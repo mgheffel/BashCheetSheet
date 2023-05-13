@@ -1,2 +1,10 @@
+#read path paths from .txt file where each line is a file path, into an array
+paths_file=$1
+readarray -t lines < $paths_file
+#take arrayjob index as i
+i=$(($SGE_TASK_ID-1))
+#get path $i from file paths array
+file_path=${lines[$i]}
+
 #get base file name without path from file path stored as variable
 filename=$(basename "$path")
