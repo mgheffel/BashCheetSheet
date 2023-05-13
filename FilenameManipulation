@@ -1,0 +1,2 @@
+#get base file name without path from file path stored as variable
+filename=$(basename "$path")
