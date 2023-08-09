@@ -1,4 +1,5 @@
 #for s3 bucket upload
+conda activate awscli
 #run
 aws configure
 #input access key and secret access key created in IAM managment center. (DELETE ACCESS KEYS WHEN DONE)
