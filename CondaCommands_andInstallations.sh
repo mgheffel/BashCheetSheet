@@ -6,8 +6,6 @@ conda create --name scanpy3_env -c conda-forge -c bioconda scanpy seaborn leiden
 
 
 scHiCluster
-conda create -n schicluster python==3.6.8
+conda create -n schicluster python==3.6.8 r-base
 conda activate schicluster
-conda install --channel conda-forge --channel bioconda pybedtools
-conda install bioconda::bedtools
 pip install git+https://github.com/zhoujt1994/scHiCluster.git
