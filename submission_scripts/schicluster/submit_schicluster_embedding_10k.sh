@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -o job$TASK_ID
-#$ -l h_rt=23:59:00,h_data=4G
+#$ -l highp,h_rt=167:59:00,h_data=4G
 #$ -pe shared 24
 usage() { echo "Usage: bash $0 -c case -s sample -o output_directory" 1>&2; exit 1; }
 
