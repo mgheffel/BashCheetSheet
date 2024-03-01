@@ -1,0 +1,2 @@
+#For installing scanpy to avoid "TypeError: metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases"
+pip install 'matplotlib == 3.6'
